@@ -36,6 +36,7 @@ const Navbar = () => {
           <li className='py-1'>CONTACT</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+        <a target="_blank" href="https://hospital-managment-system-wp7t.vercel.app/" classname="border px-5 text-xs py-1.5 rounded-full">Admin Panel</a>
       </ul>
 
       <div className='flex items-center gap-4 '>
