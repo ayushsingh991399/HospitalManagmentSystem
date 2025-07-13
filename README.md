@@ -43,8 +43,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/prescripto-hms.git
-cd prescripto-hms
+git clone https://github.com/ayushsingh991399/HospitalManagmentSystem
+cd HospitalManagmentSystem
 ```
 
 ### 2. Backend Setup
