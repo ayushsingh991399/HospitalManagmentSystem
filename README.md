@@ -49,8 +49,33 @@ cd prescripto-hms
 
 ### 2. Backend Setup
 ```bash
-bash
-Copy
-Edit
-cd server
+
+cd Backend
 npm install
+```
+### Create a .env file inside the server directory:
+```bash
+env
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+STRIPE_SECRET_KEY=your_stripe_key
+RAZORPAY_KEY_ID=your_razorpay_id
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+```
+###Start the backend:
+```bash
+npm run dev
+```
+### 3. Frontend Setup
+```bash
+
+cd Admin
+cd Frontend
+npm install
+npm run dev
+```
