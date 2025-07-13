@@ -56,16 +56,28 @@ npm install
 ### Create a .env file inside the server directory:
 ```bash
 env
+CURRENCY = "INR"
+JWT_SECRET="AyushSingh"
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-STRIPE_SECRET_KEY=your_stripe_key
-RAZORPAY_KEY_ID=your_razorpay_id
-RAZORPAY_KEY_SECRET=your_razorpay_secret
+# Admin Panel Credentials
+ADMIN_EMAIL = "admin@example.com"
+ADMIN_PASSWORD = "Ayush12345"
+
+# MongoDB Setup ( required )
+MONGODB_URI = "------ MongoDB Secret Key here ------"
+
+# Cloudinary Setup ( required )
+CLOUDINARY_NAME = '------ Cloudinary Secret Key here ------'
+CLOUDINARY_API_KEY = '------ Cloudinary Secret Key here ------'
+CLOUDINARY_SECRET_KEY = '------ Cloudinary Secret Key here ------'
+
+# Razorpay Payment Integration
+RAZORPAY_KEY_ID = "------ Razorpay Key Id here ------"
+RAZORPAY_KEY_SECRET = "------ Razorpay Key Secret here ------"
+
+# Stripe Payment Integration
+STRIPE_SECRET_KEY="------ Stripe Secret Key here ------"
+
 ```
 ###Start the backend:
 ```bash
